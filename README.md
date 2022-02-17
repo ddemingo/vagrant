@@ -4,13 +4,15 @@
 
 Download this python script to install `vagrant` locally ():
 
+> [install-vagrant.py](https://raw.githubusercontent.com/optersoft/vagrant/main/install-vagrant.py)
+
+
 
 And execute it:
 
 ```sh
 $ chmod a+x install-vagrant.py
 $ ./install-vagrant.py
-$ rm install-vagrant
 ```
 
 Test that `vagrand` works:
@@ -25,7 +27,7 @@ Usage: vagrant [options] <command> [<args>]
 Create a ubuntu server virtual machine:
 
 ```sh
-$ wget https://raw.githubusercontent.com/optersoft/vagrant/Vagrantfile
+$ curl https://raw.githubusercontent.com/optersoft/vagrant/main/Vagrantfile -o Vagrantfile
 $ vagrant up
 ```
 
@@ -40,4 +42,10 @@ Log into the virtual machine:
 
 ```sh
 $ vagrant ssh
+```
+
+To halt vm:
+
+```sh
+$ vagrant halt
 ```
