@@ -28,8 +28,7 @@ def download(file):
     path = f'{bin}/{file}'
     if not os.path.exists(path):
         print(f"Add {file} to {bin}")
-        url = f'https://github.com/lamerce/vagrant/raw/main/bin/{file}'
-        # https://stackoverflow.com/questions/22676/how-to-download-a-file-over-http
+        url = f'https://github.com/optersoft/vagrant/raw/main/bin/{file}'
         urllib.request.urlretrieve(url, path)
         make_executable(path)
 
