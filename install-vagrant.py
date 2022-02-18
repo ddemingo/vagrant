@@ -12,12 +12,8 @@ bin = f'{home}/.local/bin'
 def path():
     path = os.environ['PATH']
     if not bin in path:
-        print("""
-Add $HOME/.local/bin to your $PATH:
-
-    echo 'export PATH=\"$HOME/.local/bin:$PATH\"' >> $HOME/.bashrc
-    source $HOME/.bashrc
-""")
+        os.system("echo 'export PATH=\"$HOME/.local/bin:$PATH\"' >> $HOME/.bashrc")
+        os.system("source $HOME/.bashrc")
 
 def make_executable(file):
     st = os.stat(file)
