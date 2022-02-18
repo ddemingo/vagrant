@@ -2,9 +2,9 @@
 
 ## Install
 
-Download this python script to install `vagrant` locally ():
+Download this python script to install `vagrant` locally (Save Link as ...):
 
-> [install-vagrant.py](https://raw.githubusercontent.com/optersoft/vagrant/main/install-vagrant.py)
+> [install-vagrant.py](https://raw.githubusercontent.com/lamerce/vagrant/main/install-vagrant.py)
 
 
 
@@ -27,7 +27,7 @@ Usage: vagrant [options] <command> [<args>]
 Create a ubuntu server virtual machine:
 
 ```sh
-$ curl https://raw.githubusercontent.com/optersoft/vagrant/main/Vagrantfile -o Vagrantfile
+$ curl https://raw.githubusercontent.com/lamerce/vagrant/main/Vagrantfile -o Vagrantfile
 $ vagrant up
 ```
 
