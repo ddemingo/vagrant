@@ -29,7 +29,7 @@ Usage: vagrant [options] <command> [<args>]
 Create a ubuntu server virtual machine:
 
 ```sh
-$ curl https://raw.githubusercontent.com/lamerce/vagrant/main/Vagrantfile -o Vagrantfile
+$ curl https://raw.githubusercontent.com/ddemingo/vagrant/main/Vagrantfile -o Vagrantfile
 $ vagrant up
 ```
 
