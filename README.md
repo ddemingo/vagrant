@@ -4,7 +4,7 @@
 
 Download this python script to install `vagrant` locally (Save Link as ...):
 
-> [install-vagrant.py](https://raw.githubusercontent.com/lamerce/vagrant/main/install-vagrant.py)
+> [install-vagrant.py](https://raw.githubusercontent.com/ddemingo/vagrant/main/install-vagrant.py)
 
 
 
@@ -14,6 +14,8 @@ And execute it:
 $ chmod a+x install-vagrant.py
 $ ./install-vagrant.py
 ```
+
+Close the terminal and open again.
 
 Test that `vagrand` works:
 
